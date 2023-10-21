@@ -30,8 +30,8 @@ const Registration = () => {
         <div className="container-fluid layout-bodyA  d-flex justify-content-center  pt-4">
             <div className="row">
                 <div className="col-md-6  d-flex justify-content-center flex-column gap-4 pt-5">
-                    <h4>რეგისტრაცია</h4>
-                    <Form>
+                    <h4 style={{ color: '#199ddd' }}>რეგისტრაცია</h4>
+                    <Form className="custom-form">
                         <Form.Group>
                             <Form.Label>მომხმარებლის სახელი</Form.Label>
                             <Form.Control id="username" type="text" />
@@ -44,7 +44,7 @@ const Registration = () => {
                             <Form.Label>პაროლი</Form.Label>
                             <Form.Control id="password" type="password" />
                         </Form.Group>
-                        <Button variant="primary" onClick={handleRegister}>
+                        <Button className="custom-buttonR" variant="primary" onClick={handleRegister}>
                             რეგისტრაცია
                         </Button>
                     </Form>

@@ -19,7 +19,7 @@ const Authorization = () => {
         <div className="container-fluid layout-bodyR  d-flex justify-content-center pt-5 ">
             <div className="row">
                 <div className="col-md-6  d-flex justify-content-center flex-column gap-4 pt-5">
-                    <h4>ავტორიზაცია</h4>
+                    <h4 style={{ color: '#6fd0e1' }}>ავტორიზაცია</h4>
 
                     <Form className="custom-form">
                         <Form.Group>

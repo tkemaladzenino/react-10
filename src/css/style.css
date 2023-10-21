@@ -56,7 +56,7 @@
 
 /* AUthorisation*/
 .custom-form {
-    max-width: 300px;
+    max-width: 200px;
     margin: 0 auto;
 }
 
@@ -65,8 +65,9 @@
 }
 
 .custom-form .form-control {
-    border: 2px solid rgb(73, 73, 147);
-    border-radius: 10px;
+    border: 4px solid #7cccf5;
+    border-radius: 16px;
+
 }
 
 .custom-form .form-label {
@@ -84,10 +85,10 @@
 
 
 .custom-buttonA {
-    background: rgb(49, 87, 110);
-    color: hwb(270 85% 14%);
-    border: 5px solid rgb(224, 225, 232);
-    width: 150px;
+    background: #c8f2fc;
+    color: #6bc2d0;
+    border: 5px solid #6bc2d0;
+    width: 90px;
     border-radius: 20px;
     height: 50px;
     width: 320px;
@@ -97,7 +98,27 @@
 }
 
 .custom-buttonA:hover {
-    background-color: rgb(209, 208, 188);
+    background-color: rgb(210, 243, 246);
     color: rgb(14, 82, 111);
     border: 5px solid rgb(49, 87, 110);
+}
+
+
+.custom-buttonR {
+    background: #88d1f8;
+    color: #f8f9f9;
+    border: 5px solid #2fadee;
+    width: 90px;
+    border-radius: 20px;
+    height: 50px;
+    width: 320px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.custom-buttonR:hover {
+    background-color: rgb(210, 243, 246);
+    color: #0c5ac8;
+    border: 5px solid #0c5ac8;
 }
