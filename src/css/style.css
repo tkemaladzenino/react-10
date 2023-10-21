@@ -1,0 +1,54 @@
+.layout-body {
+    background: url('../images/backgr-2.webp') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.layout-bodyA {
+    background: url('../images/backgr-3.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.layout-bodyR {
+    background: url('../images/backgr-4.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.btn {
+    background: rgb(49, 87, 110);
+    color: hwb(270 85% 14%);
+    border: 5px solid rgb(224, 225, 232);
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    height: 60px;
+    width: 320px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgb(209, 208, 188);
+    color: rgb(14, 82, 111);
+    border: 5px solid rgb(49, 87, 110);
+
+}
+
+#username {
+    width: 400px;
+}
+
+#email {
+    width: 400px;
+}
+
+#primary {
+    width: 400px;
+}
+
+#password {
+    width: 400px;
+}
