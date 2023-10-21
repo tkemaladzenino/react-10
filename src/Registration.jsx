@@ -9,13 +9,23 @@ const Registration = () => {
         const email = document.getElementById('email').value;
         const password = document.getElementById('password').value;
 
+
         if (!username || !email || !password) {
             window.alert('ყველა ველის შევსება აუცილებელია');
+        } else if (!isValidEmail(email)) {
+            window.alert('შეიყვანეთ ელ ფოსტის სწორი ფორმატი');
         } else {
             window.alert('თქვენ წარმატებით გაიარეთ რეგისტრაცია');
         }
     };
 
+    const isValidEmail = (email) => {
+        // A simple regular expression to check for the "@" symbol in the email.
+
+
+        const emailRegex = /\S+@\S+\.\S+/;
+        return emailRegex.test(email);
+    };
     return (
         <div className="container-fluid layout-bodyA  d-flex justify-content-center  pt-4">
             <div className="row">
