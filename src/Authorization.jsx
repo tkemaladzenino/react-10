@@ -21,7 +21,7 @@ const Authorization = () => {
                 <div className="col-md-6  d-flex justify-content-center flex-column gap-4 pt-5">
                     <h4>ავტორიზაცია</h4>
 
-                    <Form>
+                    <Form className="custom-form">
                         <Form.Group>
                             <Form.Label>მომხმარებლის სახელი</Form.Label>
                             <Form.Control id="username" type="text" />
@@ -30,10 +30,11 @@ const Authorization = () => {
                             <Form.Label>პაროლი</Form.Label>
                             <Form.Control id="password" type="password" />
                         </Form.Group>
-                        <Button variant="primary" onClick={handleLogin}>
+                        <Button className="custom-buttonA" variant="primary" onClick={handleLogin}>
                             შესვლა
                         </Button>
                     </Form>
+
                 </div>
 
             </div>

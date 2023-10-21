@@ -52,3 +52,52 @@
 #password {
     width: 400px;
 }
+
+
+/* AUthorisation*/
+.custom-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.custom-form .form-group {
+    margin-bottom: 30px;
+}
+
+.custom-form .form-control {
+    border: 2px solid rgb(73, 73, 147);
+    border-radius: 10px;
+}
+
+.custom-form .form-label {
+    color: rgb(65, 65, 128);
+}
+
+.custom-form .form-group {
+    display: flex;
+    align-items: center;
+}
+
+.custom-form .form-label {
+    flex: 1;
+}
+
+
+.custom-buttonA {
+    background: rgb(49, 87, 110);
+    color: hwb(270 85% 14%);
+    border: 5px solid rgb(224, 225, 232);
+    width: 150px;
+    border-radius: 20px;
+    height: 50px;
+    width: 320px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.custom-buttonA:hover {
+    background-color: rgb(209, 208, 188);
+    color: rgb(14, 82, 111);
+    border: 5px solid rgb(49, 87, 110);
+}

@@ -8,12 +8,13 @@ function Layout() {
         <div className="container-fluid layout-body  d-flex justify-content-center ">
             <div className="row">
                 <div className="col-md-6  d-flex justify-content-center flex-column gap-4">
-                    <Link to="/registration">
-                        <button className="btn">რეგისტრაცია</button>
-                    </Link>
 
                     <Link to="/authorization">
                         <button className="btn">ავტორიზაცია</button>
+                    </Link>
+
+                    <Link to="/registration">
+                        <button className="btn">რეგისტრაცია</button>
                     </Link>
                 </div>
             </div>
