@@ -29,7 +29,7 @@ const Registration = () => {
     return (
         <div className="container-fluid layout-bodyA  d-flex justify-content-center  pt-4">
             <div className="row">
-                <div className="col-md-6  d-flex justify-content-center flex-column gap-4 pt-5">
+                <div className="col-md-6 col-12 d-flex justify-content-center flex-column gap-4 pt-5">
                     <h4 style={{ color: '#199ddd' }}>რეგისტრაცია</h4>
                     <Form className="custom-form">
                         <Form.Group>
